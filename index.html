@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+                <!--Required meta tages--->
+		<meta charset="utf-8"/>
+		<!-- Include google fonts -->
+		<link href = "https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel = "stylesheet">
+		<!-- Include CSS file -->
+		<link href = "style.css" rel = "stylesheet"/>
+	</head>
+	<body>
+		<div class = "tipCalculator">
+			<div class="title"> Tip Calculator </div>
+			<div class="inputFields">
+				<strong>Bill Amount:</strong>
+			    <div class="value">
+                                <!--This is an Input of Bill Amount-->
+			    	<input type="value" placeholder="Bill Amount" id="billAmount"/>
+			    </div>
+			    <strong>Tip Percent:</strong>
+			    <div class="number">
+			    	<button class = "minus" id = "tipMinus">-</button>
+			    	<div class = "value">
+                                        <!--This is an Input of Tip percent-->
+			    		<input type="value" placeholder="Tip Percent" id="tipPercent" readonly /> 
+			    	</div>
+			    	<button class = "plus" id = "tipPlus">+</button>
+				</div>
+					<!--Label Number of people-->
+			    <strong>Number of People:</strong>
+			    <div class="number">
+			    	<button class = "minus" id = "totalMinus">-</button>
+			    	<div class = "value">
+                                        <!--This is an Input of Number of People-->
+			    		<input type="value" placeholder="Numer of People" id="totalPerson"readonly /> 
+			    	</div>
+			    	<button class = "plus" id = "totalPlus">+</button>
+			    </div>
+	  		</div>
+                        <!-- Results-->
+	  		<div class = "result">
+	  			<div style="font-size: 25px;"> Tip </div>
+	  			Per person
+	  			<div style="display: inline-block; padding: 0px 0px 0px 30px;" id="tipPerPerson"> 0 </div>
+	  			<div style="font-size: 25px; padding: 25px 0px 0px 0px;"> Total </div>
+	  			Per person
+	  			<div style="display: inline-block; padding: 0px 0px 0px 30px;" id="totalAmtPerPerson"> 0 </div>
+
+	  		</div>
+              <!--Calculate Button-->
+	  		<div class="calculateButton" id="calculate"> Calculate </div>
+
+		</div>
+		<!--- Establish connection with javascript-->
+		<script src="main.js"></script>
+	</body>
+</html>
