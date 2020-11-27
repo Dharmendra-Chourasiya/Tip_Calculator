@@ -30,4 +30,4 @@ Tip amount per person = Tip amount/total no of person
                 = (500/2) + 25
                 = 275
 
-#Demo Link: https://dharmendra-chourasiya.github.io/Tip_Calculator/
+# Demo Link: https://dharmendra-chourasiya.github.io/Tip_Calculator/
